@@ -1,0 +1,30 @@
+import math
+
+def AreaCuadrado(lado):
+    return lado ** 2
+
+def AreaRectangulo(base, altura):
+    return base * altura
+
+def AreaCirculo(radio):
+    return math.pi * radio ** 2
+
+
+def PerimetroCuadrado(lado):
+    return 4 * lado
+
+def PerimetroRectangulo(base, altura):
+    return 2 * (base + altura)
+
+def PerimetroCirculo(radio):
+    return 2 * math.pi * radio
+
+
+def VolumenCubo(lado):
+    return lado ** 3
+
+def VolumenPrisma(largo, ancho, alto):
+    return largo * ancho * alto
+
+def VolumenCilindro(radio, altura):
+    return math.pi * radio ** 2 * altura
